@@ -42,6 +42,6 @@ jobs:
     - name: Verify settings.xml exists in .m2 directory
       run: ls -al ~/.m2
     - name: Publish to GitHub Packages Apache Maven
-      run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
+      run: mvn deploy -s ~/.m2/settings.xml
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
