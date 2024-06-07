@@ -29,4 +29,39 @@ public class Calculator {
         hasil = a / b;
         return hasil;
     }
+    public double divide5(double a, double b) {
+        if (b == 0) {
+            throw new IllegalArgumentException("Division by zero is not allowed.");
+        }
+        hasil = a / b;
+        return hasil;
+    }
+    public double divide4(double a, double b) {
+        if (b == 0) {
+            throw new IllegalArgumentException("Division by zero is not allowed.");
+        }
+        hasil = a / b;
+        return hasil;
+    }
+    public double divide3(double a, double b) {
+        if (b == 0) {
+            throw new IllegalArgumentException("Division by zero is not allowed.");
+        }
+        hasil = a / b;
+        return hasil;
+    }
+    public double divide2(double a, double b) {
+        if (b == 0) {
+            throw new IllegalArgumentException("Division by zero is not allowed.");
+        }
+        hasil = a / b;
+        return hasil;
+    }
+    public double divide1(double a, double b) {
+        if (b == 0) {
+            throw new IllegalArgumentException("Division by zero is not allowed.");
+        }
+        hasil = a / b;
+        return hasil;
+    }
 }
