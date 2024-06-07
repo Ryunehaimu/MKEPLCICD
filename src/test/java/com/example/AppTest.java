@@ -10,7 +10,7 @@ import org.junit.Test;
  */
 public class AppTest {
     private Calculator calculator;
-
+    //failed
     @Before
     public void setUp() {
         calculator = new Calculator();
@@ -18,7 +18,7 @@ public class AppTest {
 
     @Test
     public void testAdd() {
-        assertEquals(10, calculator.add(5, 5), 0);
+        assertEquals(5, calculator.add(5, 5), 0);
         assertEquals(0, calculator.add(-2, 2), 0);
         assertEquals(-3, calculator.add(-1, -2), 0);
     }
